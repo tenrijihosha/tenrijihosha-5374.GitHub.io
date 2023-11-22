@@ -60,7 +60,8 @@ a:hover {
 }
 /* ゴミを捨てるときの注意事項 */
 #accordion .note {
-	font-size: 10px;
+  font-size: 12px;   /*  須賀変更 2023.11.21 */
+  background-color: white;  /*  須賀追加 2023.11.21 */
 }
 
 /*!

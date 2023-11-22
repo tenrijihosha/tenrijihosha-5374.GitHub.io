@@ -130,7 +130,8 @@ var TrashModel = function(_lable, _cell, remarks) {
     monthList+="月 "
     result_text=monthList+result_text
   }
-  this.dayLabel = result_text;
+//  this.dayLabel = result_text;
+  this.dayLabel = "";  // 2023.11.22 須賀変更 第nY曜日の表示を非表示にする
 
 
   this.getDateLabel = function() {
@@ -557,13 +558,17 @@ $(function() {
             var leftDay = Math.ceil((trash.mostRecent.getTime() - today.getTime()) / (1000 * 60 * 60 * 24))
 
             if (leftDay == 0) {
-              leftDayText = "今日";
+//              leftDayText = "今日";
+              leftDayText = "<今日>"; // 2023.11.22 須賀変更 <>で囲んだ
             } else if (leftDay == 1) {
-              leftDayText = "明日";
+//              leftDayText = "明日";
+              leftDayText = "<明日>"; // 2023.11.22 須賀変更 <>で囲んだ
             } else if (leftDay == 2) {
-              leftDayText = "明後日"
+//              leftDayText = "明後日"
+              leftDayText = ""  // 2023.11.22 須賀変更 今日と明日以外は非表示
             } else {
-              leftDayText = leftDay + "日後";
+//              leftDayText = leftDay + "日後";
+              leftDayText = "";  // 2023.11.22 須賀変更 今日と明日以外は非表示
             }
 	  }
 

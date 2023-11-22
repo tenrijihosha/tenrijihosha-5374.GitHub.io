@@ -6,7 +6,7 @@ body {
 }
 a,
 a:hover {
-	color: white;
+	color: darkblue;   /*  須賀変更 2023.11.22 */
 	text-decoration: none;
 }
 .accordion-inner {
@@ -47,7 +47,7 @@ a:hover {
 /* 相対日付 (左肩) */
 #accordion .left-day {
 	font-size: 1.5em;
-	color: white;
+	color: black;  /*  須賀変更 2023.11.22 */
 	position: absolute;
 	padding-left: 10px;
 }

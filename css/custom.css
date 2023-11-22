@@ -53,6 +53,7 @@ a:hover {
 }
 /* 指定日・直近日付 */
 #accordion .date {
+  font-size: 35px;
 }
 /* 分別方法の頭文字(ふりがな) */
 #accordion .initials {
@@ -116,6 +117,407 @@ a:hover {
 #accordion3 #help {
 	margin-left: 5px;
 }
+
+#accordion4 a.accordion-toggle-top {
+	color: #000000;
+	height: 22px;
+	display: block;
+	margin: 0;
+	text-align: left;
+	font-size: 25px;
+	margin: 15px 0 15px 15px;
+}
+#accordion4 a.accordion-toggle-top:hover {
+	color: #000000;
+}
+#accordion4 h2 {
+	font-size: 25px;
+	margin-top: 40px;
+}
+#accordion4 h3 {
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 15px;
+}
+#accordion4 #cfi {
+	border-top: 1px solid black;
+}
+#accordion4 #cfk {
+	border-top: 1px solid black;
+}
+#accordion4 #caption {
+	font-size: 12px;
+	color: #7F7F7F;
+	margin-top: 30px;
+}
+#accordion4 #caption h4 {
+	font-size: 12px;
+	font-weight: bold;
+}
+#accordion4 #help {
+	margin-left: 5px;
+}
+
+#accordion5 a.accordion-toggle-top {
+	color: #000000;
+	height: 22px;
+	display: block;
+	margin: 0;
+	text-align: left;
+	font-size: 25px;
+	margin: 15px 0 15px 15px;
+}
+#accordion5 a.accordion-toggle-top:hover {
+	color: #000000;
+}
+#accordion5 h2 {
+	font-size: 25px;
+	margin-top: 40px;
+}
+#accordion5 h3 {
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 15px;
+}
+#accordion5 #cfi {
+	border-top: 1px solid black;
+}
+#accordion5 #cfk {
+	border-top: 1px solid black;
+}
+#accordion5 #caption {
+	font-size: 12px;
+	color: #7F7F7F;
+	margin-top: 30px;
+}
+#accordion5 #caption h4 {
+	font-size: 12px;
+	font-weight: bold;
+}
+#accordion5 #help {
+	margin-left: 5px;
+}
+
+#accordion6 a.accordion-toggle-top {
+	color: #000000;
+	height: 22px;
+	display: block;
+	margin: 0;
+	text-align: left;
+	font-size: 25px;
+	margin: 15px 0 15px 15px;
+}
+#accordion6 a.accordion-toggle-top:hover {
+	color: #000000;
+}
+#accordion6 h2 {
+	font-size: 25px;
+	margin-top: 40px;
+}
+#accordion6 h3 {
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 15px;
+}
+#accordion6 #cfi {
+	border-top: 1px solid black;
+}
+#accordion6 #cfk {
+	border-top: 1px solid black;
+}
+#accordion6 #caption {
+	font-size: 12px;
+	color: #7F7F7F;
+	margin-top: 30px;
+}
+#accordion6 #caption h4 {
+	font-size: 12px;
+	font-weight: bold;
+}
+#accordion6 #help {
+	margin-left: 5px;
+}
+
+#accordion7 a.accordion-toggle-top {
+	color: #000000;
+	height: 22px;
+	display: block;
+	margin: 0;
+	text-align: left;
+	font-size: 25px;
+	margin: 15px 0 15px 15px;
+}
+#accordion7 a.accordion-toggle-top:hover {
+	color: #000000;
+}
+#accordion7 h2 {
+	font-size: 25px;
+	margin-top: 40px;
+}
+#accordion7 h3 {
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 15px;
+}
+#accordion7 #cfi {
+	border-top: 1px solid black;
+}
+#accordion7 #cfk {
+	border-top: 1px solid black;
+}
+#accordion7 #caption {
+	font-size: 12px;
+	color: #7F7F7F;
+	margin-top: 30px;
+}
+#accordion7 #caption h4 {
+	font-size: 12px;
+	font-weight: bold;
+}
+#accordion7 #help {
+	margin-left: 5px;
+}
+
+#accordion8 a.accordion-toggle-top {
+	color: #000000;
+	height: 22px;
+	display: block;
+	margin: 0;
+	text-align: left;
+	font-size: 25px;
+	margin: 15px 0 15px 15px;
+}
+#accordion8 a.accordion-toggle-top:hover {
+	color: #000000;
+}
+#accordion8 h2 {
+	font-size: 25px;
+	margin-top: 40px;
+}
+#accordion8 h3 {
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 15px;
+}
+#accordion8 #cfi {
+	border-top: 1px solid black;
+}
+#accordion8 #cfk {
+	border-top: 1px solid black;
+}
+#accordion8 #caption {
+	font-size: 12px;
+	color: #7F7F7F;
+	margin-top: 30px;
+}
+#accordion8 #caption h4 {
+	font-size: 12px;
+	font-weight: bold;
+}
+#accordion8 #help {
+	margin-left: 5px;
+}
+
+#accordion9 a.accordion-toggle-top {
+	color: #000000;
+	height: 22px;
+	display: block;
+	margin: 0;
+	text-align: left;
+	font-size: 25px;
+	margin: 15px 0 15px 15px;
+}
+#accordion9 a.accordion-toggle-top:hover {
+	color: #000000;
+}
+#accordion9 h2 {
+	font-size: 25px;
+	margin-top: 40px;
+}
+#accordion9 h3 {
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 15px;
+}
+#accordion9 #cfi {
+	border-top: 1px solid black;
+}
+#accordion9 #cfk {
+	border-top: 1px solid black;
+}
+#accordion9 #caption {
+	font-size: 12px;
+	color: #7F7F7F;
+	margin-top: 30px;
+}
+#accordion9 #caption h4 {
+	font-size: 12px;
+	font-weight: bold;
+}
+#accordion9 #help {
+	margin-left: 5px;
+}
+
+#accordion10 a.accordion-toggle-top {
+	color: #000000;
+	height: 22px;
+	display: block;
+	margin: 0;
+	text-align: left;
+	font-size: 25px;
+	margin: 15px 0 15px 15px;
+}
+#accordion10 a.accordion-toggle-top:hover {
+	color: #000000;
+}
+#accordion10 h2 {
+	font-size: 25px;
+	margin-top: 40px;
+}
+#accordion10 h3 {
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 15px;
+}
+#accordion10 #cfi {
+	border-top: 1px solid black;
+}
+#accordion10 #cfk {
+	border-top: 1px solid black;
+}
+#accordion10 #caption {
+	font-size: 12px;
+	color: #7F7F7F;
+	margin-top: 30px;
+}
+#accordion10 #caption h4 {
+	font-size: 12px;
+	font-weight: bold;
+}
+#accordion10 #help {
+	margin-left: 5px;
+}
+
+#accordion11 a.accordion-toggle-top {
+	color: #000000;
+	height: 22px;
+	display: block;
+	margin: 0;
+	text-align: left;
+	font-size: 25px;
+	margin: 15px 0 15px 15px;
+}
+#accordion11 a.accordion-toggle-top:hover {
+	color: #000000;
+}
+#accordion11 h2 {
+	font-size: 25px;
+	margin-top: 40px;
+}
+#accordion11 h3 {
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 15px;
+}
+#accordion11 #cfi {
+	border-top: 1px solid black;
+}
+#accordion11 #cfk {
+	border-top: 1px solid black;
+}
+#accordion11 #caption {
+	font-size: 12px;
+	color: #7F7F7F;
+	margin-top: 30px;
+}
+#accordion11 #caption h4 {
+	font-size: 12px;
+	font-weight: bold;
+}
+#accordion11 #help {
+	margin-left: 5px;
+}
+
+#accordion12 a.accordion-toggle-top {
+	color: #000000;
+	height: 22px;
+	display: block;
+	margin: 0;
+	text-align: left;
+	font-size: 25px;
+	margin: 15px 0 15px 15px;
+}
+#accordion12 a.accordion-toggle-top:hover {
+	color: #000000;
+}
+#accordion12 h2 {
+	font-size: 25px;
+	margin-top: 40px;
+}
+#accordion12 h3 {
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 15px;
+}
+#accordion12 #cfi {
+	border-top: 1px solid black;
+}
+#accordion12 #cfk {
+	border-top: 1px solid black;
+}
+#accordion12 #caption {
+	font-size: 12px;
+	color: #7F7F7F;
+	margin-top: 30px;
+}
+#accordion12 #caption h4 {
+	font-size: 12px;
+	font-weight: bold;
+}
+#accordion12 #help {
+	margin-left: 5px;
+}
+
+#accordion13 a.accordion-toggle-top {
+	color: #000000;
+	height: 22px;
+	display: block;
+	margin: 0;
+	text-align: left;
+	font-size: 25px;
+	margin: 15px 0 15px 15px;
+}
+#accordion13 a.accordion-toggle-top:hover {
+	color: #000000;
+}
+#accordion13 h2 {
+	font-size: 25px;
+	margin-top: 40px;
+}
+#accordion13 h3 {
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 15px;
+}
+#accordion13 #cfi {
+	border-top: 1px solid black;
+}
+#accordion13 #cfk {
+	border-top: 1px solid black;
+}
+#accordion13 #caption {
+	font-size: 12px;
+	color: #7F7F7F;
+	margin-top: 30px;
+}
+#accordion13 #caption h4 {
+	font-size: 12px;
+	font-weight: bold;
+}
+#accordion13 #help {
+	margin-left: 5px;
+}
+
 
 /*!
  * Maybe not in use. Remove these later.

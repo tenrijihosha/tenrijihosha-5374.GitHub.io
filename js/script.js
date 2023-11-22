@@ -138,7 +138,8 @@ var TrashModel = function(_lable, _cell, remarks) {
     if (this.mostRecent === undefined) {
 	return this.getRemark() + "不明";
     }
-    var result_text = this.mostRecent.getFullYear() + "/" + (1 + this.mostRecent.getMonth()) + "/" + this.mostRecent.getDate();
+//    var result_text = this.mostRecent.getFullYear() + "/" + (1 + this.mostRecent.getMonth()) + "/" + this.mostRecent.getDate();
+    var result_text = (1 + this.mostRecent.getMonth()) + "月" + this.mostRecent.getDate() + "日(" + [ "日", "月", "火", "水", "木", "金", "土" ][this.mostRecent.getDay()] + ')'; // 2023.11.22 須賀変更 月日だけにして、/を漢字にした 曜日も付けた
     return this.getRemark() + this.dayLabel + " " + result_text;
   }
 

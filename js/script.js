@@ -619,10 +619,6 @@ $(function() {
 //      if ($(".in").length == 0) {
 //        $("html, body").scrollTop(0);
 //      }
-      var accordion_offset_back = $($(this).get(0)).offset().top;
-      body.animate({
-        scrollTop: accordion_offset_back
-      }, 50);
     });
   }
 

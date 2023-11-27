@@ -609,8 +609,7 @@ $(function() {
     //アコーディオンのラベル部分をクリックしたら
     $(".accordion-body").on("shown.bs.collapse", function() {
       var body = $('body');
-//      var accordion_offset = $($(this).parent().get(0)).offset().top;
-      var accordion_offset = $(this).parent();
+      var accordion_offset = $($(this).parent().get(0)).offset().top;
       body.animate({
         scrollTop: accordion_offset
       }, 50);

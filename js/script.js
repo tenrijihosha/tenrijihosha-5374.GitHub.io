@@ -609,16 +609,17 @@ $(function() {
     //アコーディオンのラベル部分をクリックしたら
     $(".accordion-body").on("shown.bs.collapse", function() {
       var body = $('body');
-      var accordion_offset = $($(this).parent().get(0)).offset().top;
+//      var accordion_offset = $($(this).parent().get(0)).offset().top;
+      var accordion_offset = $($(this).parent()).offset().top;
       body.animate({
         scrollTop: accordion_offset
       }, 50);
     });
     //アコーディオンの非表示部分をクリックしたら
     $(".accordion-body").on("hidden.bs.collapse", function() {
-//      if ($(".in").length == 0) {
-//        $("html, body").scrollTop(0);
-//      }
+      if ($(".in").length == 0) {
+        $("html, body").scrollTop(0);
+      }
     });
   }
 

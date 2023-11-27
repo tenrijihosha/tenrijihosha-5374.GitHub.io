@@ -610,7 +610,7 @@ $(function() {
     $(".accordion-body").on("shown.bs.collapse", function() {
       var body = $('body');
 //      var accordion_offset = $($(this).parent().get(0)).offset().top;
-      var accordion_offset = $(this).parent().offset();
+      var accordion_offset = $(this).parent();
       body.animate({
         scrollTop: accordion_offset
       }, 50);

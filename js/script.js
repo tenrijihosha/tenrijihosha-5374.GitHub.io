@@ -604,7 +604,7 @@ $(function() {
     var accordion_elm = $("#accordion");
     accordion_elm.html(accordionHTML);
 
-    $('html,body').animate({scrollTop: 0}, 'fast');
+   // $('html,body').animate({scrollTop: 0}, 'fast');
 
     //アコーディオンのラベル部分をクリックしたら
     $(".accordion-body").on("shown.bs.collapse", function() {

@@ -617,7 +617,7 @@ $(function() {
     //アコーディオンの非表示部分をクリックしたら
     $(".accordion-body").on("hidden.bs.collapse", function() {
       if ($(".in").length == 0) {
-        //$("html, body").scrollTop(0);
+        //$("html, body").scrollTop(0); //2023.11.28 アコーディオンを閉じるとトップまで移動するのをやめるためにコメントアウトした
       }
     });
   }
